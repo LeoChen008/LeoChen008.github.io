@@ -27,12 +27,15 @@
     list-style: none;
     > li {
         padding-bottom: 30px;
-        border-bottom: 1px solid #CCC;
+        padding-left: 30px;
+        border-bottom: dotted 2px #6a737d;
+        border-left: dotted 2px #6a737d;
     	margin-bottom: 30px;
     }
     .post-title {
     	font-size: 28px;
     	font-weight: normal;
+        align-content: center;
     	margin: 0;
     }
     .post-meta {

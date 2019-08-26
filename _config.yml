@@ -1,20 +1,19 @@
 # Site settings
 title: LeoChen008
-url: "http://LeoChen008.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+url: "https://LeoChen008.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/ShangHai
 description: >
-  One or more sentences introducing this blog.
-
+  普通的记录博客
 # Your information
 email: leoandchen008@gmail.com
 author: LeoChen008
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: One sentence introducing yourself.
+profile: 这个人很懒，什么都不想说。
 #twitter_username: twitter_username
 #github_username:  github_username
 profile_links:
-  Email: "mailto:your_email@example.com"
+  Email: "mailto:leoandchen008@gmail.com"
   GitHub: "https://github.com/LeoChen008"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
@@ -23,15 +22,15 @@ profile_links:
 #disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
-excerpt_separator: <!--more-->
+excerpt_separator: <!==more==>
 
 header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
-    About: /about/
-    Category: /category/
-    Donate: https://laobubu.net/donate.html
+    分类: /category/
+    鸣谢: /about/
+    #Donate: https://laobubu.net/donate.html
 
-permalink: /archivers/:title
+permalink: /:year/:month/:day/:title
 plugins:
  - jekyll-paginate
  - jekyll-gist
