@@ -5,8 +5,8 @@
   --content-second: #adb5bd;
   --content-code: #f9f2f4;
   --border: #dfe2e5;
-  --accent-first: #0685ea;
-  --accent-second: #4dabf733;
+  --accent-first: #bfbfbf;
+  --accent-second: #8b959f66;
 }
 .gt-bg-theme-color-first {
   background: var(--theme-first);
@@ -123,13 +123,11 @@ hr {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* 取消对头像的样式渲染
-        .user-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-        }
-        */
+}
+.navbar .navbar-brand .user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 .navbar .navbar-brand .site-name {
   font-size: 28px !important;
